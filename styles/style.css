@@ -79,7 +79,7 @@ ol {
   display: grid;
   grid-area: content__details;
   row-gap: 26px;
-  width: 100%;
+  inline-size: 399px;
   height: 100%;
 }
 
@@ -94,8 +94,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 100%;
-  max-height: 298px;
+  block-size: 298px;
   overflow: auto;
 }
 
